@@ -7,9 +7,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="/styles/style.css" />
   </head>
   <body class="open-sans">
@@ -17,10 +25,11 @@
       <nav>
         <h3 class="nav_title">Sa<spam class="text_primary">T</spam>il</h3>
         <ul>
-          <li><a class="dark-2" href="">Protfolio</a></li>
-          <li><a class="dark-2" href="">Blog</a></li>
+          <li><a class="dark-2 active-nav" href="/index.html">Protfolio</a></li>
+          <li><a class="dark-2" href="/blog.html">Blog</a></li>
           <li>
-            <a href=""><button class="button-me">Hire Me</button></a>
+            <a href="https://wa.me/1837914161" target="_blank">
+              <button class="button-me">Hire Me</button></a>
           </li>
         </ul>
       </nav>
@@ -33,8 +42,14 @@
             experiences with modern technologies. Always learning, building, and
             growing to become a skilled full-stack software developer.
           </p>
-          <button class="button-me">Download CV</button>
-          <button class="button-me">Contact</button>
+          <a href="https://drive.google.com/file/d/1jNVRXsF-6jdS6vEuSZIR7NYBhsbC3uBC/view?usp=drive_link" target="_blank"><button class="button-me">
+              <i class="fa-solid fa-download"></i> Download CV
+            </button></a>
+          <a href="https://wa.me/1837914161" target="_blank"
+            ><button class="button-me1">
+              <i class="fa-solid fa-phone"></i> Contact
+            </button></a
+          >
         </div>
         <img class="banner-picture" src="/image/Satil.png" alt="" />
       </div>
@@ -203,9 +218,44 @@
           </div>
         </div>
         <div class="resume-b">
-          <button class="resume-button">Download CV</button>
+          <a href="https://drive.google.com/file/d/1jNVRXsF-6jdS6vEuSZIR7NYBhsbC3uBC/view?usp=drive_link" target="_blank">
+          <button class="resume-button">
+            <i class="fa-solid fa-download"></i> Download CV
+          </button></a>
         </div>
       </section>
     </main>
+    <footer>
+      <div class="footer-coloum">
+        <h3 class="footer-title">Lets Connect</h3>
+        <p class="footer-description dark-2">
+          Please fill out the form on this section to contact with me or call
+          between 9:00 A.M and 8.00 P.M, Saturday through Thursday.
+        </p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/satil.bhuiyan" target="_blank"
+            ><img class="socials" src="/image/facebook.png" alt=""
+          /></a>
+          <a href="https://www.instagram.com/mohammad_muktakin/" target="_blank"
+            ><img class="socials" src="/image/insta.png" alt=""
+          /></a>
+          <a href="https://www.linkedin.com/in/satil-bhuiyan-0340a12ab/" target="_blank"
+            ><img class="linkin1 socials" src="/image/linkedin.png" alt=""
+          /></a>
+          <a href="https://x.com/Satil_Bhuiyan" target="_blank"
+            ><img class="socials" src="/image/twitter.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="footer-coloum">
+        <h3 class="footer-title">Let’s Message me</h3>
+        <form class="footer-from" action="">
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Your email" />
+          <textarea name="" id="" cols="30" rows="10">Message</textarea>
+          <button class="submit-me">Submit</button>
+        </form>
+      </div>
+    </footer>
   </body>
 </html>
