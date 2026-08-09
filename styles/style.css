@@ -41,7 +41,7 @@ hr {
 
 /*----Header-----*/
 .Header {
-    background-image: url(/image/developer.png), url(/image/header_bg.png);
+    background-image: url(../image/developer.png), url(../image/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left 20px, bottom right;
 
