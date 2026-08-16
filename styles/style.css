@@ -687,8 +687,7 @@ body {
     }
 
     .footer-from input,
-    textarea,
-    .newsletter input {
+    textarea{
         width: calc(100% - 70px);
     }
 
@@ -745,5 +744,6 @@ body {
 
     .newsletter input {
         margin-bottom: 20px;
+        width: 290px;
     }
 }
