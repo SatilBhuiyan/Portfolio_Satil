@@ -687,7 +687,8 @@ body {
     }
 
     .footer-from input,
-    textarea {
+    textarea,
+    newsletter input {
         width: calc(100% - 70px);
     }
 
@@ -739,11 +740,10 @@ body {
     }
 
     .newsletter {
-        padding: 15px;
+        padding: 20px;
     }
 
     .newsletter input {
         margin-bottom: 20px;
-        width: 270px;
     }
 }
